@@ -15,3 +15,10 @@ def add(a, b):
 a = int(input('Enter your first number: '))
 b = int(input('Enter your second number: '))
 add(a, b)
+
+
+def shout():
+    x = str(input("Dude, lets shout somethin':"))
+    print(x.upper() + " !!!!!!!!!!!!!!!!!!!!!!!!!")
+
+shout()
