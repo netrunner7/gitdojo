@@ -12,6 +12,10 @@ def add(a, b):
     print(a + b)
 
 
+def shout2():
+    user_input = (input("Dej słowo:"))
+    print(user_input + "!!!")
+
 a = int(input('Enter your first number: '))
 b = int(input('Enter your second number: '))
 add(a, b)
@@ -22,3 +26,4 @@ def shout():
     print(x.upper() + " !!!!!!!!!!!!!!!!!!!!!!!!!")
 
 shout()
+shout2()
